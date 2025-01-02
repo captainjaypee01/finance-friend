@@ -21,6 +21,7 @@ export const sidebarLinks = [
   },
 ];
 
+export const APPWRITE_SESSION_KEY = process.env.NEXT_PUBLIC_APPWRITE_SESSION_KEY || 'appwrite-session';
 // good_user / good_password - Bank of America
 export const TEST_USER_ID = "6627ed3d00267aa6fa3e";
 
